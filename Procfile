@@ -1,1 +1,1 @@
-web gunicorn rock.wsgi:application --log-file -
+web: gunicorn cool.wsgi --log-file -
