@@ -1,0 +1,1 @@
+web gunicorn rock.wsgi:application --log-file -
